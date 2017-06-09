@@ -1,0 +1,505 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif
+	}
+body{
+	background:linear-gradient(white,white,green) no-repeat;
+	
+	}
+#div1{
+	border: solid black 5px;
+	border-radius:10px;
+	height:contain;
+	background:linear-gradient(brown,khaki);
+	}
+#div2{
+	border: solid black 5px;
+	border-radius:10px;
+	height:contain;
+	margin-top:10px;
+	width: 100%;
+	background:linear-gradient(#F9C,#F00);
+	}
+h1{
+	animation-name:head;
+	-webkit-animation-name:head;
+	animation-iteration-count:infinite;
+	animation-duration:2s;
+	-webkit-animation-duration:1s;
+	-webkit-animation-iteration-count:infinite;
+	animation-direction:alternate;
+	font-size-adjust: inherit;
+		font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+		font-size:42px;
+		color: red;
+		text-shadow:0.5px 0.5px 1px pink;
+	
+	text-align:center;
+	}	
+@-webkit-keyframes head{
+	to{color:red;
+	text-shadow:1px 1px 2px black;
+	letter-spacing:4px;}
+	from{color:pink;
+	text-shadow:1px 1px 2px red;
+	letter-spacing:8px;}
+	}
+#div3{
+	border-bottom:0.5px solid white;
+	border-bottom-right-radius:10px;
+	border-bottom-left-radius:10px;
+	}
+#div31{
+	background-color:red;
+	}		 	
+#div4{
+	padding:0;
+	font-size:24px;
+
+	text-align:center;
+	margin-top:10px;
+	width:100%;
+	border:gold ridge 3px;
+	border-radius: 10px;
+	}	
+.div5{
+    background:linear-gradient(yellow,gold,yellow,gold);
+	width:22%;
+	float:left;
+	border-right:solid 5px Orange;
+	}	
+a .div5{
+text-decoration:none;
+	color: maroon;
+	transition:all ease 0.5s;
+	}	
+a .div5:hover{
+	background: none;
+	background-color: pink;
+	text-shadow: 1px 1px 1px black;
+	color: Red;
+	animation: nav alternate infinite ease 0.5s;
+	}
+a .active,a .active:hover{
+	background:none;
+	background-color:#09F;
+	text-decoration:none;
+	text-shadow: 1px 1px 1px black;
+	color: GOLD;
+	animation: none;
+	cursor:default;
+	}
+#footer{
+	width:100%;
+	background-color:#000;
+	height:50px;
+	border:2px solid white;
+	border-radius:10px;
+	}
+#footer1{
+	float:left;
+	border-right:2px solid white;
+	height:50px;
+	padding:10px;
+	color:white;
+	font-size:20px;
+	transition: all 0.5s ease-in-out;
+	}
+#footer1 img{
+	width:30px;
+	height:30px;
+	margin-left:40px;
+	
+	}	
+#footer1:hover{
+	color:red;
+	}		
+	
+/* a .active:hover{
+	cursor:default;
+	background: none;
+	background-color:#09F;
+	text-shadow: 1px 1px 1px black;
+	color: Gold;
+	animation:none;
+	} */	
+			
+@-webkit-keyframes nav{
+	to{letter-spacing:2px;}
+	from{letter-spacing:4px;}
+	}	
+#navbtn{
+	margin-top:30px;
+	background:linear-gradient(yellow,gold,yellow,gold);
+	height:50px;
+	border:orange 2px outset;
+	border-radius: 6px;
+	width:50px;
+	padding: 0 7px;
+	padding-top:5px;
+	cursor:pointer;
+	}	
+#navbtn:hover{
+	background:linear-gradient(purple,purple);
+	}	
+#line{
+	background-color:orange;
+	height:5px;
+	text-align:center;
+	margin-top:5px;
+	width:90%;
+	float:left;
+	margin-left:2px;
+	border-radius:10px;
+	}	
+	@-webkit-keyframes newhead{
+	to{color:red;
+	text-shadow:1px 1px 2px black;}
+	from{color:pink;
+	text-shadow:1px 1px 2px red;}
+	}
+	
+	@media (min-width:428px) and (max-width:505px){
+	h1{
+		font-size:28px;
+	    word-spacing:normal;
+		animation-name:newhead;
+	
+	}
+	
+
+}		
+header{
+	background-color:#000;
+	border:2px solid white;
+	color:snow;
+	font-size:18px;
+	text-align:center;
+	font-family:"Comic Sans MS", cursive;
+	word-spacing:7px;
+	border-radius: 10px;
+ 	margin-top:5px;
+	}		
+#header{
+	width:100%;
+	}	
+#pagehead{
+	text-decoration:underline;
+	font-size:39px;
+	color: Red;
+	text-shadow:1px 2px 2px black;
+	
+	}	
+.glyphicon-heart{
+	font-size:39px;
+	color: Red;
+	text-shadow:1px 2px 2px black;
+	}	
+#HOTD{
+	color: #FCF;
+	text-shadow:1px 2px 2px black;
+	font-size:39px;
+	}	
+#HOTDimg{
+	width:100%
+	}	
+
+#fblogo,#inlogo,#twlogo{
+	width:30%;
+	height:90%;
+	float:left;
+	}	
+#fblink,#twlink,#inlink{
+	width:60%;
+	height:90%;
+	float:left;
+	}	
+	
+#textbox{
+	display: none;
+	width:100%;
+	height:100px;
+	}
+#textbox input{
+	width:100%;
+	height:100%;
+	}		
+#HOTD-eng,#HOTD-urdu{
+	background-color: khaki;
+	color:brown;
+	font-size:20px;
+	text-align:center;
+	width:85%;
+	padding:10px;
+	border: 1px brown dashed;
+	border-radius:10px;
+	display:none;
+	margin-top:10px;
+	}	
+	
+	
+	
+/*Hadiths-eng  CSS starts Here*/	
+#langbtn{
+	height:40px;
+	padding:10px;
+	width:100%;
+	}	
+#lang{
+	text-align:center;
+	margin:0 auto;
+	width:40px;
+	height:100%;
+	float:left;
+	background-color:#FF0;
+	padding:3px;
+	margin-top:3px;
+	border-radius:15px;
+	cursor:pointer;
+	}
+#urdu,#eng{
+	color: khaki;
+	width:45%;
+	text-align:left;
+	float:left;
+	font-size:20px;
+	text-shadow:1px 2px 2px black;
+	}	
+#urdu{
+text-align:right;
+	}	
+#abc{
+	background-color:red;
+	width:50%;
+	border-radius:15px;
+	height:100%;
+	float:left;
+	box-shadow:1px 2px 2px black;
+	}	
+	#headhadith{
+background-color:#27C91F;color:white;text-align:right;border-radius:10px; text-shadow:1px 2px 2px black;font-size:26px;border:1px dashed green;padding:10px;width:100%}	
+#body1,#body2{
+	width:100%;
+	height:auto;
+	
+	}	
+#body2{
+	background:none;
+	display:none;
+	height:auto;
+	}	
+
+
+#hurdu1,#hurdu2,#hurdu3,#hurdu4,#hurdu5,#hurdu6,#hurdu7,#hurdu8,#hurdu9,#hurdu10,#hurdu11,#hurdu12,#hurdu13,#hurdu14,#hurdu15,#hurdu16,#hurdu17,#hurdu18,#hurdu19,#hurdu20,#hurdu21,#hurdu22,#hurdu23,#hurdu24,#hurdu25,#hurdu26,#hurdu27,#hurdu28,#hurdu29,#hurdu30,#hurdu31{
+	cursor:pointer;
+	background-color:khaki;
+	color:maroon;
+	text-shadow:1px 2px 2px white;
+	transition: all ease 0.5s;
+	padding:5px;
+	font-size:24px;
+	border-radius:10px;
+	width:100%;
+	text-align:right;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-weight:bolder;
+	border:1px solid black;
+	}		
+
+
+#hurdu1:hover,#hurdu2:hover,#hurdu3:hover,#hurdu4:hover,#hurdu5:hover,#hurdu6:hover,#hurdu7:hover,#hurdu8:hover,#hurdu9:hover,#hurdu10:hover,#hurdu11:hover,#hurdu12:hover,#hurdu13:hover,#hurdu14:hover,#hurdu15:hover,#hurdu16:hover,#hurdu17:hover,#hurdu18:hover,#hurdu19:hover,#hurdu20:hover,#hurdu21:hover,#hurdu22:hover,#hurdu23:hover,#hurdu24:hover,#hurdu25:hover,#hurdu26:hover,#hurdu27:hover,#hurdu28:hover,#hurdu29:hover,#hurdu30:hover,#hurdu31:hover{
+	
+	background-color:#F90;
+	color:black;
+	text-shadow:1px 2px 2px snow;
+	
+	}
+
+
+#hadithurdu1,#hadithurdu2,#hadithurdu3,#hadithurdu4,#hadithurdu5,#hadithurdu6,#hadithurdu7,#hadithurdu8,#hadithurdu9,#hadithurdu10,#hadithurdu11,#hadithurdu12,#hadithurdu13,#hadithurdu14,#hadithurdu15,#hadithurdu16,#hadithurdu17,#hadithurdu18,#hadithurdu19,#hadithurdu20,#hadithurdu21,#hadithurdu22,#hadithurdu23,#hadithurdu24,#hadithurdu25,#hadithurdu26,#hadithurdu27,#hadithurdu28,#hadithurdu29,#hadithurdu30,#hadithurdu31{
+	background-color:rgba(90,0,10,0.5);
+	display:none;
+	padding:10px;
+	border-top-left-radius:10px;
+	
+	border-top-right-radius:10px;
+	margin-bottom:10px;
+	}	
+
+#hadithurdu1 img,#hadithurdu2 img,#hadithurdu3 img,#hadithurdu4 img,#hadithurdu5 img,#hadithurdu6 img,#hadithurdu7 img,#hadithurdu8 img,#hadithurdu9 img,#hadithurdu10 img,#hadithurdu11 img,#hadithurdu12 img,#hadithurdu13 img,#hadithurdu14 img,#hadithurdu15 img,#hadithurdu16 img,#hadithurdu17 img,#hadithurdu18 img,#hadithurdu19 img,#hadithurdu20 img,#hadithurdu21 img,#hadithurdu22 img,#hadithurdu23 img,#hadithurdu24 img,#hadithurdu25 img,#hadithurdu26 img,#hadithurdu27 img,#hadithurdu28 img,#hadithurdu29 img,#hadithurdu30 img,#hadithurdu31 img{
+	width:75%;
+	}	
+	
+			
+
+#heng1,#heng2,#heng3,#heng4,#heng5,#heng6,#heng7,#heng8,#heng9,#heng10,#heng11,#heng12,#heng13,#heng14,#heng15,#heng16{
+	cursor:pointer;
+	background-color:#0CF;
+	color:white;
+	text-shadow:1px 2px 2px black;
+	transition: all ease 0.5s;
+	padding:5px;
+	font-size:24px;
+	border-radius:10px;
+	width:100%;
+	
+	border:1px solid black;
+	}	
+
+#heng1:hover,#heng2:hover,#heng3:hover,#heng4:hover,#heng5:hover,#heng6:hover,#heng7:hover,#heng8:hover,#heng9:hover,#heng10:hover,#heng11:hover,#heng12:hover,#heng13:hover,#heng14:hover,#heng15:hover,#heng16:hover{
+	background-color:#06F;
+	color:white;
+	text-shadow:1px 2px 2px khaki;
+	
+	}		
+	
+#haditheng1,#haditheng2,#haditheng3,#haditheng4,#haditheng5,#haditheng6,#haditheng7,#haditheng8,#haditheng9,#haditheng10,#haditheng11,#haditheng12,#haditheng13,#haditheng14,#haditheng15,#haditheng16{
+	background-color:rgba(90,0,10,0.5);
+	display:none;
+	padding:10px;
+	border-top-left-radius:10px;	
+	border-top-right-radius:10px;
+	margin-bottom:10px;
+	}	
+#haditheng1 img,#haditheng2 img,#haditheng3 img,#haditheng4 img,#haditheng5 img,#haditheng6 img,#haditheng7 img,#haditheng8 img,#haditheng9 img,#haditheng10 img,#haditheng11 img,#haditheng12 img,#haditheng13 img,#haditheng14 img,#haditheng15 img,#haditheng16 img{
+width:75%;
+	}	
+
+
+
+/*Sunnahs Page Starts Here*/
+ul li{
+	color:khaki;
+	list-style:disc;
+	width:contain;
+	margin-left:50px;
+	}
+ul{
+	width:100%;
+	font-size:24px;
+	}
+	
+	
+ @media(max-width:427px){
+	 h1{
+		 font-size: 24px;
+		 animation-name:newhead;
+		 
+		 }
+	#headhadith{
+		font-size: 18px;
+		}
+#urdu,#eng{
+	width:40%;
+	text-align:left;
+	float:left;
+	font-size:20px;
+	}		 
+#urdu{
+text-align:right;
+	}	
+	
+#HOTD-eng{
+	font-size:16px;
+	display:none;
+	}		 
+	 #div3{
+		width:75%;
+		 }
+		#navbtn{
+			margin-top:15px;
+			}
+		#div5{
+			font-size: 20px;
+			}
+		
+		#pagehead{
+			font-size:27px;
+			}	
+		.glyphicon-heart{
+			font-size:27px;
+			}	
+		#HOTD{
+			font-size:25px;
+			}		
+		
+#heng1,#heng2,#heng3,#heng4,#heng5,#heng6,#heng7,#heng8,#heng9,#heng10,#heng11,#heng12,#heng13,#heng14,#heng15,#heng16{
+	font-size:15px;
+	}	
+
+#hurdu1,#hurdu2,#hurdu3,#hurdu4,#hurdu5,#hurdu6,#hurdu7,#hurdu8,#hurdu9,#hurdu10,#hurdu11,#hurdu12,#hurdu13,#hurdu14,#hurdu15,#hurdu16,#hurdu17,#hurdu18,#hurdu19,#hurdu20,#hurdu21,#hurdu22,#hurdu23,#hurdu24,#hurdu25,#hurdu26,#hurdu27,#hurdu28,#hurdu29,#hurdu30,#hurdu31{
+	font-size:18px;
+	}		
+	.he1{
+		font-size:24px;
+		}
+#footer1{
+	font-size:18px;
+	}	
+
+	 }
+	@media (max-width:767px){
+		#haditheng1 img,#haditheng2 img,#haditheng3 img,#haditheng4 img,#haditheng5 img,#haditheng6 img,#haditheng7 img,#haditheng8 img,#haditheng9 img,#haditheng10 img,#haditheng11 img,#haditheng12 img,#haditheng13 img,#haditheng14 img,#haditheng15 img,#haditheng16 img{
+width:100%;
+	}
+
+#hadithurdu1 img,#hadithurdu2 img,#hadithurdu3 img,#hadithurdu4 img,#hadithurdu5 img,#hadithurdu6 img,#hadithurdu7 img,#hadithurdu8 img,#hadithurdu9 img,#hadithurdu10 img,#hadithurdu11 img,#hadithurdu12 img,#hadithurdu13 img,#hadithurdu14 img,#hadithurdu15 img,#hadithurdu16 img,#hadithurdu17 img,#hadithurdu18 img,#hadithurdu19 img,#hadithurdu20 img,#hadithurdu21 img,#hadithurdu22 img,#hadithurdu23 img,#hadithurdu24 img,#hadithurdu25 img,#hadithurdu26 img,#hadithurdu27 img,#hadithurdu28 img,#hadithurdu29 img,#hadithurdu30 img,#hadithurdu31 img{
+	width:100%;
+	}	
+#urdu,#eng{
+	width:40%;
+	text-align:left;
+	float:left;
+	font-size:20px;
+	}		 
+#urdu{
+text-align:right;
+	}			
+				 
+		#div4{
+			display:none;
+			}
+		
+		#footer{
+			height: 150px;
+			}	
+		#footer1{
+			border: none;
+			border-bottom:1px solid white;
+			}	
+		
+		#footer img{
+			float:right;
+			
+			margin-right:10px;
+			}		
+		} 	 
+	
+	@media (max-width:847px){
+		#HOTDimg{
+			}
+		} 	 	
+	@media (min-width:768px) and (max-width:991px){
+		#div4{
+			display:none;
+			}
+		#footer{
+			height: 150px;
+			}	
+		
+		#footer1{
+			border: none;
+			border-bottom:1px solid white;
+			
+			}		
+		#footer img{
+			float:right;
+			margin-right:10px;
+			}	
+			
+		}	
+	@media (max-width:1200px){
+		
+
+		}	
