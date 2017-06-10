@@ -366,7 +366,9 @@ background-color:#27C91F;color:white;text-align:right;border-radius:10px; text-s
 width:75%;
 	}	
 
-
+#HOTDimg img,#HOTDimg2 img{
+	width:75%;
+	}
 
 /*Sunnahs Page Starts Here*/
 ul li{
@@ -440,7 +442,7 @@ text-align:right;
 
 	 }
 	@media (max-width:767px){
-		#haditheng1 img,#haditheng2 img,#haditheng3 img,#haditheng4 img,#haditheng5 img,#haditheng6 img,#haditheng7 img,#haditheng8 img,#haditheng9 img,#haditheng10 img,#haditheng11 img,#haditheng12 img,#haditheng13 img,#haditheng14 img,#haditheng15 img,#haditheng16 img{
+		#haditheng1 img,#haditheng2 img,#haditheng3 img,#haditheng4 img,#haditheng5 img,#haditheng6 img,#haditheng7 img,#haditheng8 img,#haditheng9 img,#haditheng10 img,#haditheng11 img,#haditheng12 img,#haditheng13 img,#haditheng14 img,#haditheng15 img,#haditheng16 img,#HOTDimg img,#HOTDimg2 img{
 width:100%;
 	}
 
